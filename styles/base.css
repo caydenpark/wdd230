@@ -1,0 +1,14 @@
+/* html/element selectors */
+h1 {
+    color: orange;
+}
+
+/* class selectors (can be reused across all elements) */
+.name {
+    color: blue;
+}
+
+/* id selectors (cannot be reused) */
+#not-blue {
+    color: pink;
+}
