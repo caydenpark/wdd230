@@ -69,18 +69,28 @@ footer{
 
 .card1 {
     float: left;
-    padding-right: 1em;
-    background: red;
-    color: green;
+    padding: 1em;
+    margin-bottom: 1em;
+    background: rgb(37, 63, 112);
+    color: white;
 }
 
 .card2 {
     float: right;
-    padding-left: 1em;
-    color: purple;
+    padding: 1em;
+    background-color: rgb(37, 63, 112);
+    color: white;
 }
 
 /* id selectors (cannot be reused) */
 #not-blue {
     color: pink;
+}
+
+#activities {
+    
+}
+
+#information {
+    
 }
