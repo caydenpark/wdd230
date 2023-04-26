@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center, space-evenly;
+    }
+
+    
+}
