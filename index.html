@@ -10,11 +10,14 @@
       content="WDD 230 - Web Frontend Development, Cayden Park's course assignment portal"
     />
     <meta name="author" content="Cayden Park" />
-    <meta property="og:title" content="Cayden Park WDD 230">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.andersoncountysc.org/wp-content/uploads/2021/03/Drone-Courthouse_East-to-West-scaled.jpg">
-    <meta property="og:url" content="https://caydenpark.github.io/wdd230/">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <meta property="og:title" content="Cayden Park WDD 230" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://www.andersoncountysc.org/wp-content/uploads/2021/03/Drone-Courthouse_East-to-West-scaled.jpg"
+    />
+    <meta property="og:url" content="https://caydenpark.github.io/wdd230/" />
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,13 +26,16 @@
       href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥️</text></svg>">
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥️</text></svg>"
+    />
   </head>
   <body>
     <header>
-      <div id="mode"></div>
       <img src="images/IMG_3572.JPG" alt="Profile Picture" width="200" />
       <h1>Cayden Park</h1>
+      <div id="dark">⚫️</div>
     </header>
     <nav>
       <button id="menu"></button>
@@ -42,18 +48,29 @@
     </nav>
     <main>
       <h2>WDD 230: Web Frontend Development</h2>
-      <div class="stuff"></div>
-      <div id="container">
-        <section class="card1">
+      <div class="container">
+        <section class="card">
           <h3 id="activities">Learning Activities</h3>
           <ul>
             <li>Lesson 1</li>
-            <a class="activity_links" href="lesson01/holygrail.html">Holy Grail</a>
-            <a class="activity_links" href="lesson01/media-query.html">Media Query</a>
-            <a class="activity_links" href="https://codepen.io/caydenpark/pen/zYmoWXe">Applied JavaScript</a>
+            <a class="activity_links" href="lesson01/holygrail.html"
+              >Holy Grail</a
+            >
+            <a class="activity_links" href="lesson01/media-query.html"
+              >Media Query</a
+            >
+            <a
+              class="activity_links"
+              href="https://codepen.io/caydenpark/pen/zYmoWXe"
+              >Applied JavaScript</a
+            >
             <li>Lesson 2</li>
             <a class="activity_links" href="lesson02/design.html">Design</a>
-            <a class="activity_links" href="https://codepen.io/caydenpark/pen/xxyYpJV">Hamburger Menu</a>
+            <a
+              class="activity_links"
+              href="https://codepen.io/caydenpark/pen/xxyYpJV"
+              >Hamburger Menu</a
+            >
             <a class="activity_links" href="lesson02/bom.html">Scriptures</a>
             <li>Lesson 3</li>
             <li>Lesson 4</li>
@@ -62,11 +79,11 @@
             <li>Lesson 7</li>
           </ul>
         </section>
-        <section class="card2">
-          <h3 id="information">Information</h3>
-          <p1>weather, number of visits, etc.</p1>
-        </section>
       </div>
+      <section class="card">
+        <h3 id="information">Information</h3>
+        <p1>weather, number of visits, etc.</p1>
+      </section>
     </main>
     <footer>
       <p>&copy;<span id="year"></span>- Cayden Park - USA</p>
