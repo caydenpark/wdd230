@@ -33,7 +33,7 @@
   </head>
   <body>
     <header>
-      <img src="images/IMG_3572.JPG" alt="Profile Picture" width="200" />
+      <img src="images/profile_pic.JPG" alt="Profile Picture" width="200" />
       <h1>Cayden Park</h1>
       <div id="dark">⚫️</div>
     </header>
@@ -47,6 +47,16 @@
       </ul>
     </nav>
     <main>
+      <div class="temple">
+        <picture>
+          <source srcset="images/logan_temple.webp" media="max-width: 400px" />
+          <source srcset="images/logan_temple.webp" media="max-width: 960px" />
+          <img src="images/logan_temple.webp" alt="Logan Temple" width="100%" />
+        </picture>
+        <div class="templelabel">
+          <p>Logan Utah Temple</p>
+        </div>
+      </div>
       <h2>WDD 230: Web Frontend Development</h2>
       <div class="container">
         <section class="card">
@@ -85,7 +95,9 @@
       <section class="card">
         <h3 id="information">Information</h3>
         <p1>weather, number of visits, etc.</p1>
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
       </section>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26910.946333384087!2d177.49316129738284!3d-18.154667173394348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6e10a990c6c34fa5%3A0xedc900ea5cbb568d!2sSigatoka%2C%20Fiji!5e1!3m2!1sen!2sus!4v1684893281141!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
       <p>&copy;<span id="year"></span>- Cayden Park - USA</p>
@@ -94,5 +106,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitCounter.js"></script>
   </body>
 </html>
