@@ -1,0 +1,41 @@
+@media (min-width: 808px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+        padding-top: 10px;
+    }
+    header h1 {
+        border-radius: 10px 10px 0px 0px;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    #menu {
+        display: none;
+    }
+    nav {
+        border-radius: 0px 0px 5px 5px;
+        border: black;
+        border-style: solid;
+        border-color: #4f6f20;
+        border-width: 5px;
+    }
+    .events {
+        grid-column: 1/4;
+    }
+    .weather {
+        grid-column: 4/5;
+    }
+    .spotlights {
+        grid-column: 1/5;
+    }
+}

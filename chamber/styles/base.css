@@ -1,0 +1,125 @@
+body {
+    background-color: aliceblue;
+}
+
+header h1 {
+    text-align: center;
+    margin: auto;
+    background-color: #96c8ec;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: aliceblue;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+nav {
+    background-color: #959453;
+    border-radius: 10px;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 808px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: .25rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X"
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.hero a {
+    color: #4f6f20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-decoration: none;
+    padding: .5em;
+    border-radius: 20px;
+    font-size: 25px;
+    opacity: .8;
+    transition: .3s;
+}
+
+.events {
+    background-color: #4f6f20;
+    border-radius: 10px;
+}
+
+section h2 {
+    text-align: center;
+    padding-top: .5em;
+}
+
+section h3 {
+    padding-left: 1em;
+}
+
+section p {
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.weather {
+    background-color: #4f6f20;
+    border-radius: 10px;
+}
+
+.spotlights {
+    background-color: #4f6f20;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #96c8ec;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
