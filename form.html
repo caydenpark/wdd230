@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/profile_pic.JPG" alt="Profile Picture" width="200" />
+      <h1>Cayden Park</h1>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="url" class="nav-link">Home</a></li>
+        <li><a href="chamber/index.html" class="nav-link">Chamber</a></li>
+        <li><a href="url" class="nav-link">Site Plan</a></li>
+        <li><a href="url" class="nav-link">Survey</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="formmessage"></div>
+      <form method="get" action="form.html">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" required /><br />
+        <label for="password1">Password: </label>
+        <input
+          type="password"
+          id="password1"
+          name="password1"
+          required
+          pattern=".{8,}"
+        /><br />
+        <label for="password2">Confirm Password: </label>
+        <input
+          type="password"
+          id="password2"
+          name="password2"
+          required
+          pattern=".{8,}"
+        /><br />
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+        /><br />
+        <label for="pageRating">Page Rating: </label>
+        <div id="rangevalue">0</div>
+        <input
+          type="range"
+          id="pageRating"
+          name="pageRating"
+          min="1"
+          max="10"
+          value="1"
+          step="1"
+          list="rangevalues"
+        />
+        <datalist id="rangevalues">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option></datalist
+        ><br />
+      </form>
+      <form action="record.html" method="get">
+        <button type="submit">Login</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy;<span id="year"></span>- Cayden Park - USA</p>
+      <p>Date Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitCounter.js"></script>
+    <script src="scripts/passwordConfirmation.js"></script>
+    <script src="scripts/pageRating.js"></script>
+  </body>
+</html>

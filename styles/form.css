@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    padding: 1em;
+}
+
+h1 {
+    margin: auto;
+    color: white;
+    padding-left: 1em;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 50px;
+    grid-template-rows: 1fr;
+    background: rgb(37, 63, 112);
+    padding: 1rem;
+}
+
+header img {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+nav {
+    background-color: black;
+    grid-column: 1/2;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center, space-evenly;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: center;
+    padding: .25rem;
+}
+
+a {
+    color: white;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+footer{
+    background: rgb(37, 63, 112);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+footer p {
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+form {
+    padding: 10px;
+}
+
+#formmessage {
+	visibility: none;
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+}
+
+#password:invalid {
+	background-color: #fff0f3;
+	animation: shaketext 500ms;
+}
+
+.req::after {
+	font-size: 10px;
+	content: " *️⃣";
+}
+
+#pageRating {
+	width: 220px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 25px;
+	width: 200px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
