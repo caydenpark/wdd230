@@ -38,4 +38,11 @@
     .spotlights {
         grid-column: 1/5;
     }
-}
+
+    form {
+        grid-column: 1/2;
+    }
+    
+    form .membership {
+        grid-column: 3/5;
+    }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigatoka Chamber of Commer</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏝️</text></svg>"
+    />
+    <meta property="og:title" content="Sigatoka, Fiji Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="Sigatoka River.jpeg" />
+    <meta property="og:url" content="https://caydenpark.github.io/wdd230/" />
+  </head>
+  <body>
+    <header>
+      <h1>Sigatoka, Fiji Chamber of Commerce</h1>
+      <a id="menu" href="#"></a>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="thankyou.html" method="get">
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" required /><br />
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lname" id="lname" required /><br />
+        <label for="title/position">Title/Position</label><br>
+        <input
+          type="text"
+          name="title/position"
+          id="title/position"
+          pattern="[a-zA-Z\s\-]{7,}"
+        /><br />
+        <label for="email">Email</label><br>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="benstone@gmail.com"
+          required
+        /><br />
+        <label for="phone">Mobile Phone Number</label><br>
+        <input type="tel" name="phone" id="phone" required /><br />
+        <label for="businessname">Business/Organization's Name</label><br>
+        <input
+          type="text"
+          name="businessname"
+          id="businessname"
+          required
+        /><br /><br />
+        <div class="membership">
+          <label>Membership Level:</label><br />
+          <input type="radio" name="membership" id="np" />
+          <label for="np"
+            >NP Membership is for non profit organizations and there is no
+            fee.</label
+          ><br />
+          <input type="radio" name="membership" id="bronze" />
+          <label for="bronze">Bronze Membership</label><br />
+          <input type="radio" name="membership" id="silver" />
+          <label for="silver">Silver Membership</label><br />
+          <input type="radio" name="membership" id="gold" />
+          <label for="gold">Gold Membership</label><br /><br />
+        </div>
+        <label for="description">Description of business/organization:</label
+        ><br />
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+        ></textarea>
+
+        <input type="hidden" name="timestamp" id="timestamp" /><br />
+        <input type="submit" name="submit" id="submit" value="Join Chamber!" />
+      </form>
+    </main>
+    <footer>
+      <p>&copy;<span id="year"></span>- Cayden Park - Project for WDD 230</p>
+      <p>Date Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/getCurrentDataTime.js"></script>
+  </body>
+</html>

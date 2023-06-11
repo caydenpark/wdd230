@@ -123,3 +123,17 @@ footer p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+main {
+   justify-content: center; 
+}
+
+form {
+    text-align: left;
+}
+
+form input, textarea, label {
+    margin: 5px 0;
+    box-shadow: #959453;
+    border-radius: 2px;
+}
