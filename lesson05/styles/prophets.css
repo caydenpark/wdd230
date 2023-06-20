@@ -1,0 +1,47 @@
+
+header,
+main,
+footer {
+  margin: 1rem;
+  position: relative;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#cards{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit minmax(320px, 1fr));
+}
+
+section {
+    max-width: 100%;
+	background-color: #7d61fa50;
+	border: 1px solid black;
+	padding: 20px;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(4, 4, 212, 0.908);
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (min-width: 960px) {
+	#cards {
+		grid-template-columns: 1fr 1fr
+	}
+}

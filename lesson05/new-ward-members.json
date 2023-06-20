@@ -1,0 +1,29 @@
+{
+    "familyName" : "Park",
+    "dateMovedIn" : [
+        {
+            "month" : "March",
+            "day" : 19,
+            "year" : 2022
+        }
+    ],
+    "numOfPeople" : 3,
+    "visitedByBishopric" : true,
+    "familyMembers" : [
+        {
+            "name" : "Darin",
+            "gender" : "Male",
+            "birthdate" : "08/11/1968"
+        },
+        {
+            "name" : "Jenny",
+            "gender" : "Female",
+            "birthdate" : "11/01/1971"
+        },
+        {
+            "name" : "Cayden",
+            "gender" : "Male",
+            "birthdate" : "03/10/1999"
+        }
+    ]
+}
