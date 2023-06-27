@@ -56,8 +56,8 @@
     </div>
     <h2>WDD 230: Web Frontend Development</h2>
     <div class="container">
-      <section class="card">
-        <h3 id="activities">Learning Activities</h3>
+      <section class="card" id="activities">
+        <h3>Learning Activities</h3>
         <ul>
           <li>Lesson 1</li>
           <a class="activity_links" href="lesson01/holygrail.html">Holy Grail</a>
@@ -94,28 +94,39 @@
     </div>
     <section class="card">
       <h3 id="information">Information</h3>
-      <p1>weather, number of visits, etc.</p1>
-      <p>
-        <span class="label">Number of Visits: </span><span class="visits"></span>
-      </p>
+      <div class="information">
+        <p>Sigatoka, Fiji</p>
+        <figure>
+          <img loading="lazy" id="weather-icon" src="" alt="">
+          <span id="current-temp"></span>
+          <figcaption></figcaption>
+        </figure>
+        <p>
+          <span class="label">Visit Count: </span><span class="visits"></span>
+        </p>
+      </div>
     </section>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26910.946333384087!2d177.49316129738284!3d-18.154667173394348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6e10a990c6c34fa5%3A0xedc900ea5cbb568d!2sSigatoka%2C%20Fiji!5e1!3m2!1sen!2sus!4v1684893281141!5m2!1sen!2sus"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26910.946333384087!2d177.49316129738284!3d-18.154667173394348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6e10a990c6c34fa5%3A0xedc900ea5cbb568d!2sSigatoka%2C%20Fiji!5e1!3m2!1sen!2sus!4v1684893281141!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
   </main>
   <footer>
     <p>&copy;<span id="year"></span>- Cayden Park - USA</p>
     <p>Date Last Modified: <span id="lastModified"></span></p>
   </footer>
+  <script src="scripts/links.js"></script>
   <script src="scripts/getDates.js"></script>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/darkMode.js"></script>
   <script src="scripts/visitCounter.js"></script>
+  <script src="scripts/weather.js"></script>
 </body>
 
 </html>
