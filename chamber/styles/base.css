@@ -23,6 +23,10 @@ header h1 {
     content: "≡";
 }
 
+#menu.show::before {
+    content: "X"
+}
+
 nav {
     background-color: #959453;
     border-radius: 10px;
@@ -51,9 +55,6 @@ nav {
     display: block;
 }
 
-#menu.show::before {
-    content: "X"
-}
 
 .hero {
     position: relative;

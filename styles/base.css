@@ -19,7 +19,7 @@ header {
     grid-template-rows: 1fr;
     background: rgb(190, 92, 1);
     padding: 1rem;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
 }
 
 header img {
@@ -29,13 +29,14 @@ header img {
 }
 
 nav {
-    background-color: black;
     grid-column: 1/2;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center, space-evenly;
     margin: 0 auto;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
 }
 
 nav ul {
@@ -47,6 +48,30 @@ nav ul {
 nav ul li {
     text-align: center;
     padding: .25rem;
+    color: rgb(190, 92, 1);
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 808px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: .25rem;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(190, 92, 1);
+    transition: .5s;
+}
+
+.show li {
+    display: block;
 }
 
 a {
@@ -107,6 +132,7 @@ footer p {
 
 .nav-link {
     text-decoration: none;
+    color: rgb(190, 92, 1);
 }
 
 .card {
@@ -190,18 +216,26 @@ footer p {
 
 /* styling for hamburger menu */
 
-#menu {
-	width: 30px;
-	height: 30px;
-	margin: 0 0 0 auto;
+#menuButton {
+    /* background-color: rgb(49, 49, 49); */
+    text-decoration: none;
 	display: block;
+    font-size: 2rem;
+    padding: .5rem .75rem;
+	margin: 0 0 0 auto;
+    border-radius: 8px;
+    text-align: right;
 }
 
-#menu::before {
+#menuButton:hover {
+    text-decoration: none;
+}
+
+#menuButton::before {
 	content: "☰";
 }
 
-#menu.open::before {
+#menuButton.show::before {
 	content: "🔙";
 }
 

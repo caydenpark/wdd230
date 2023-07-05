@@ -1,6 +1,7 @@
 @media (min-width: 808px) {
 
     main {
+        display: grid;
         max-width: 1000px;
     }
 
@@ -12,8 +13,31 @@
         margin-right: 25px;
     }
 
+    /* .navigation {
+        display: flex;
+    } */
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
     header h1 {
         margin-left: 5px;
+    }
+
+    header {
+        border-radius: 10px 10px 0 0;
+    }
+
+    nav {
+        border-radius: 0 0 10px 10px;
     }
 
     nav ul {
