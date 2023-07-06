@@ -24,7 +24,6 @@
     }
     nav {
         border-radius: 0px 0px 5px 5px;
-        border: black;
         border-style: solid;
         border-color: #4f6f20;
         border-width: 5px;
@@ -45,6 +44,10 @@
     
     form .membership {
         grid-column: 3/5;
+    }
+
+    #images img {
+        width: 50%;
     }
 
 }

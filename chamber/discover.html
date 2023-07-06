@@ -23,14 +23,41 @@
       <nav>
         <ul class="navigation">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Discover</a></li>
+          <li><a href="discover.html">Discover</a></li>
           <li><a href="#">Directory</a></li>
           <li><a href="#">Join</a></li>
         </ul>
       </nav>
     </header>
     <main>
-        
+        <aside id="sidebar">
+          <ul id="cards">
+            <li>
+              <h1>Bula Vinaka!</h1>
+              <p id="welcomeMessage">Welcome! Let us know if you have any questions.</p>
+            </li>
+            <li>
+              <h1>Population</h1>
+              <p>17,622</p>
+            </li>
+            <li>
+              <h1>Popular Attractions</h1>
+              <p><a href="https://www.tripadvisor.com/Attraction_Review-g294336-d309034-Reviews-Sigatoka_Sand_Dunes_National_Park-Sigatoka_Coral_Coast_Viti_Levu.html">Sigatoka Sand Dunes National Park</a></p>
+              <p><a href="https://www.tripadvisor.com/Attraction_Review-g294336-d309003-Reviews-Kula_Wild_Adventure_Park-Sigatoka_Coral_Coast_Viti_Levu.html">Kula Wild Adventure Park</a></p>
+              <p><a href="https://www.tripadvisor.com/Attraction_Review-g294336-d12882504-Reviews-Biausevu_Waterfall-Sigatoka_Coral_Coast_Viti_Levu.html">Biausevu Waterfall</a></p>
+              <p><a href="https://www.tripadvisor.com/Attraction_Review-g294336-d312233-Reviews-Natadola_Beach-Sigatoka_Coral_Coast_Viti_Levu.html">Natadola Beach</a></p>
+              <p><a href="https://www.tripadvisor.com/Attraction_Review-g294336-d14863306-Reviews-Tappoo-Sigatoka_Coral_Coast_Viti_Levu.html">Tappoo Mall</a></p>
+            </li>
+          </ul>
+        </aside>
+        <section id="images">
+          <img src="images/Sigatoka River.webp" alt="Sigatoka River" loading="lazy">
+          <img src="images/sandDunes.jpg" alt="Sigatoka Sand Dunes" loading="lazy">
+          <img src="images/kulaWild.jpg" alt="Kula Wild Adventure Park" loading="lazy">
+          <img src="images/biausevuWaterfall.jpg" alt="Biausevu Waterfall" loading="lazy">
+          <img src="images/natadolaBeach.jpeg" alt="Natadola Beach" loading="lazy">
+          <img src="images/tappoo.jpeg" alt="Tappoo Store" loading="lazy">
+        </section> 
     </main>
     <footer>
       <p>&copy;<span id="year"></span>- Cayden Park - Project for WDD 230</p>
@@ -39,6 +66,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/getCurrentDataTime.js"></script>
+    <script src="scripts/welcomeMessage.js"></script>
   </body>
 </html>
 
