@@ -1,0 +1,53 @@
+{
+    "companies": [
+        {
+            "name": "Tappoo Mall",
+            "address": "Tappoo Building, Main Street Sigatoka, Fiji",
+            "phone": "679-650-0199",
+            "website": "https://www.tappoo.com.fj",
+            "image": "chamber/images/directory/tappoo.jpeg"
+        },
+        {
+            "name": "Ecotrax Fiji",
+            "address": "Ecotrax Central, Voua, Fiji",
+            "phone": "679-977-0824",
+            "website": "https://www.ecotrax.com.fj",
+            "image": "chamber/images/directory/ecotrax.jpeg"
+        },
+        {
+            "name": "S Nagindas",
+            "address": "5CW8+X8F, Nadi, Fiji",
+            "phone": "679-948-8129",
+            "website": "https://www.snagindas.com",
+            "image": "chamber/images/directory/nagindas.jpeg"
+        },
+        {
+            "name": "Nadi International Airport",
+            "address": "6FW2+V9H, Nadi, Fiji",
+            "phone": "679-672-5777",
+            "website": "http://www.airportsfiji.com/nadi_aiport.php",
+            "image": "chamber/images/directory/fijiAirways.jpeg"
+        },
+        {
+            "name": "Fiji Marriott Resort Momi Bay",
+            "address": "Savusavu Road Momi Bay, Fiji",
+            "phone": "679-670-7000",
+            "website": "https://www.marriott.com/en-us/hotels/nanmc-fiji-marriott-resort-momi-bay/overview/",
+            "image": "chamber/images/directory/marriott.jpeg"
+        },
+        {
+            "name": "Sigatoka River Safari",
+            "address": "Fiji, ooaPMavua",
+            "phone": "679-650-1721",
+            "website": "https://sigatokariver.com",
+            "image": "chamber/images/directory/riverSafari.jpeg"
+        },
+        {
+            "name": "Skydive Fiji",
+            "address": "Denarau Road, Nadi, Fiji",
+            "phone": "679-992-4079",
+            "website": "http://www.skydivefiji.com/",
+            "image": "chamber/images/directory/skydive.jpeg"
+        }
+    ]
+}
